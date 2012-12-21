@@ -6,9 +6,9 @@
 
 #SingleInstance force
 #UseHook
-; Motion key mappings
 ; Vim does not need these mappings
 #IfWinNotActive ahk_class Vim
+    ; Motion key mappings
     !j::SendInput {Down}
     !k::SendInput {Up}
     !h::SendInput {Left}
@@ -39,8 +39,8 @@
     ^!+h::SendInput +{Home}
     ^!+l::SendInput +{End}
 
+    ; Delete
     !x::SendInput {Del}
-    !i::SendInput {Insert}
 #IfWinNotActive
 
 ; Window arrangement
