@@ -38,6 +38,9 @@
     ^!+k::SendInput ^+{Home}
     ^!+h::SendInput +{Home}
     ^!+l::SendInput +{End}
+
+    !x::SendInput {Del}
+    !i::SendInput {Insert}
 #IfWinNotActive
 
 ; Window arrangement
