@@ -7,7 +7,9 @@ If you use Vim, you will love it.
 
 Get AutoHotKey
 ==============
-[AutoHotkey_L](http://l.autohotkey.net/) is a more advanced version which has Unicode support.
+[AutoHotkey](https://www.autohotkey.com/) v2.0 is now supported - load `vimV2.ahk`.
+
+For v1.0 and v1.1, load `vim.ahk`.
 
 Hotkeys
 =======
@@ -63,14 +65,6 @@ Produce Alt+Up/Down when you really need it
     Ctrl+Shift+j: Alt+Down
     Ctrl+Shift+k: Alt+Up
 
-##Window Arrangement
-
-Need at least Win7 to work
-
-    Win+Alt+j: Win+Down
-    Win+Alt+k: Win+Up
-    Win+Alt+h: Win+Left
-    Win+Alt+l: Win+Right
 
 Notes
 =====
